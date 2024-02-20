@@ -53,7 +53,7 @@ const res = await fetch("https://bsigaming.online/api/games", {
 ```javascript
 
 (async()=>{
-const res = await fetch("https://bsigaming.online/api/games/PgSoft", {
+const res = await fetch("https://bsigaming.online/api/games/{{providerSlug}}", {
   "headers": {
     "accept": "*/*",
     "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,ar;q=0.6",
@@ -98,7 +98,7 @@ const res = await fetch("https://bsigaming.online/api/providers", {
 ```javascript
 
 (async()=>{
-const res = await fetch("https://bsigaming.online/api/game/launch/{{gameId}", {
+const res = await fetch("https://bsigaming.online/api/game/launch/{{gameId}}", {
   "headers": {
     "accept": "*/*",
     "accept-language": "pt-BR,pt;q=0.9,en-US;q=0.8,en;q=0.7,ar;q=0.6",
